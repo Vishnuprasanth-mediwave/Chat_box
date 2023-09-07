@@ -1,0 +1,152 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #647376;
+}
+.total-content{
+    display: grid;
+    grid-template-columns: 80px auto;
+}
+.left-small{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px groove #D8D8D8;
+}
+.messege-icon{
+    display: flex;
+    justify-content: center;
+}
+.messege-icon img{
+    width: 40px;
+    height: 40px;
+    padding: 20px 0px;
+    padding-bottom: 150px;
+}
+.forum-back{
+    margin: 15px 0px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px groove #D8D8D8;
+    border-radius: 8px;
+}
+.left-center-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left-center-icons img{
+    padding: 30px 0px;
+    width: 30px;
+    height: 30px;
+}
+.right-top{
+    padding: 20px;
+    border-bottom: 1px groove #D8D8D8;
+}
+.top-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-messege{
+    display: flex;
+}
+.messege-small-icon {
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px groove #D8D8D8;
+    border-radius: 8px;
+}
+.grey-icon{
+    background-image: url(assets/Rectangle\ 61top-1.png);
+}
+.five-image{
+    position: relative;
+}
+.five-image h4{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    color: white;
+}
+.top-right-left-images{
+    height: 34px;
+    display: flex;
+    border-right: 1px groove #D8D8D8;
+}
+.top-right-left-images img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.person-add{
+    margin-right:20px ;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px groove #D8D8D8;
+    border-radius: 8px;
+}
+.search-last-image{
+    padding-left: 20px;
+    display: flex;
+}
+.search-icon{
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px groove #D8D8D8;
+    border-radius: 8px;
+}
+.top-right-images{
+    display: flex;
+}
+.right-content-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.card-border{
+    border-bottom: 1px groove #D8D8D8;
+}
+.card-flex{
+    display: flex;
+    padding: 30px 20px;
+    margin: 20px;
+    align-items: center;
+}
+.extra{ 
+    background-color:#D8D8D8 ;
+    border-radius: 20px;
+}
+.folder-icon{
+    padding-right: 15px;
+}
