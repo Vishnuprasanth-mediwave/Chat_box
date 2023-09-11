@@ -170,7 +170,8 @@ p{
     padding-right: 15px;
 }
 .right-second-column{
-   display: inline-block;
+   display: grid;
+   grid-template-columns: 1fr;
     border-right: 1px groove #D8D8D8;
 }
 .chat-portion{
@@ -300,8 +301,7 @@ p{
     border-radius: 8px;
 }
 .footer{
-    position: fixed;
-    bottom: 0;
+    
 }
 
 .footer-content{
